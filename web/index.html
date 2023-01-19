@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                background-color: peachpuff;
+                padding: 0;
+                margin: 0;
+            }
+            .title{
+                text-align: center;
+                font-size: 50px;
+                padding-top: 50px;
+                font-family: fantasy;
+                color: black;
+                text-shadow:2px 1px black;
+                font-weight: bolder;
+            }
+            #first{
+                padding: 40px;
+                margin: 40px;
+                text-align: center;
+            }
+            #name,#password{
+                padding: 5px;
+                background-color: highlighttext;
+                margin: 10px;
+            }
+            .btn{
+                color: black;
+                background-color: white;
+                padding: 10px;
+                align-content: center;
+                border-radius: 5px;
+                border-color: peachpuff; 
+            }
+            .btn:hover{
+                color: white;
+                background-color: black;
+                padding: 10px;
+                align-content: center;
+                border-radius: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="title">BANK MANAGEMENT SYSTEM</div>
+        <form action="login" method="post" id="first">
+            USERNAME:<input type="text" name="a" id="name"/><br/>
+            PIN:<input type="password" name="b" id="password"/><br/>
+            <input type="submit" value="LOGIN" class="btn"/>
+        </form>
+    </body>
+</html>
